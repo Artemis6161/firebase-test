@@ -1,0 +1,36 @@
+.North {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(234, 79%, 73%);
+}
+.South {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #47f122;
+}
+
+@media screen and (max-width: 576px) {
+  /* .name {
+    width: 100%;
+    text-align: center;
+  } */
+  .image {
+    width: 100%;
+    /* position: absolute; */
+
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 30rem;
+  }
+  .text {
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+  }
+}
